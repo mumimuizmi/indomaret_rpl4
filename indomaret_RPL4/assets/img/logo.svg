@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 65" width="280" height="65">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Indomaret Icon Box -->
+  <g transform="translate(6, 6)" filter="url(#shadow)">
+    <!-- White outer border box -->
+    <rect x="0" y="0" width="50" height="52" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    
+    <!-- Top Blue Bar -->
+    <path d="M 4 8 C 4 5.8 5.8 4 8 4 L 42 4 C 44.2 4 46 5.8 46 8 L 46 18 L 4 18 Z" fill="#005baa" />
+    
+    <!-- Middle Red Bar -->
+    <rect x="4" y="20" width="42" height="14" fill="#ed1c24" />
+    
+    <!-- Bottom Yellow Bar -->
+    <path d="M 4 36 L 46 36 L 46 44 C 46 46.2 44.2 48 42 48 L 8 48 C 5.8 48 4 46.2 4 44 Z" fill="#ffcb05" />
+    
+    <!-- Little Cart / Smile Motif in Center -->
+    <circle cx="25" cy="27" r="4" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- Typography -->
+  <!-- "Indomaret" in custom italic retail style -->
+  <text x="68" y="38" font-family="'Arial Black', Impact, 'Segoe UI', sans-serif" font-weight="900" font-style="italic" font-size="28" fill="#005baa" letter-spacing="-0.5">Indomaret</text>
+  
+  <!-- Subtitle Tagline -->
+  <rect x="68" y="44" width="70" height="13" rx="3" fill="#ed1c24"/>
+  <text x="73" y="54" font-family="'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="8.5" fill="#ffffff" letter-spacing="0.5">RPL 4 POS</text>
+  <text x="144" y="54" font-family="'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="8.5" fill="#64748b" letter-spacing="0.5">mudah &amp; hemat</text>
+</svg>
